@@ -39,12 +39,27 @@ I recommend using low horizontal spacing with this skin, particularly with the S
 
 This add-on requires [Masque].
 
+The current Retail target is **World of Warcraft 12.1.0 (Midnight), Interface `120100`**.
+Use the current Retail release of Masque (12.1.0 or newer) and a compatible
+button/aura add-on that supports Masque. Pointy supplies skins; the supporting
+add-on controls which buttons are available to skin.
+
 ## [Installation][Top]
 
 Install the package through your preferred add-on manager or extract the archive to your add-ons directory.
 
 - **Classic:** `World of Warcraft\_classic_\Interface\AddOns`
 - **Retail:** `World of Warcraft\_retail_\Interface\AddOns`
+
+For a manual installation from this repository, name the add-on folder
+**`Masque_Pointy`**, even though the repository is named `A_Masque_Pointy`.
+`Masque_Pointy.toc`, `Skins.lua`, and `Textures/` must be directly inside that
+folder. A different folder name breaks the skin texture paths.
+
+Enable Masque and Masque: Pointy, then use `/msq` to select one of the four
+Pointy variants for a supported add-on group. See
+[development and verification](docs/development.md) for compatibility evidence,
+checks, and the branch workflow.
 
 ## [Credits][Top]
 

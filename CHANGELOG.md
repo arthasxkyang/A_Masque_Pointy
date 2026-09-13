@@ -1,3 +1,8 @@
+## Unreleased
+
+- Updated the Retail interface version to `120100` for World of Warcraft 12.1.0 (Midnight).
+- Clarified the required installation folder and current Masque dependency.
+
 ## 1.0.4
 
 - Fixed `GetAddOnMetadata` for 11.02
